@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, h1, h2, h3, h4, h5, h6, ul, li, ol, p, a {
+	padding:0;
+	margin:0;
+	border:0;
+}
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	background-color: #008686;
+	background-image:url(img/bg_edited-2.png);
+	background-repeat: repeat-x;
+}
+#konten {
+	width: 850px;
+	margin:auto;
+}
+#head {
+	float: left;
+	height: 100px;
+	width: 850px;
+}
+
+#logo {
+	float: left;
+	width: 350px;
+}
+#nav {
+	float: right;
+}
+
+.nav-link li{
+	display: block;
+	float: left;
+	list-style-type: none;
+}
+.nav-link li a{
+	font-size: 17px;
+	color: #FFF;
+	line-height:100px;
+	text-decoration: none;
+	text-transform:capitalize;
+	text-align: center;
+	float: left;
+	height: 100px;
+	width: 120px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #008686;
+	
+	
+}
+.nav-link a:hover{
+	background-image:url(img/nav_hover.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#acitve-nav {
+	width:120px;
+	height:100px;
+	background-image:url(img/active-nav.png);
+	background-repeat:no-repeat;
+}
+li.border-right {
+	border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #555;
+}
+#welcome {
+	background-image: url(img/);
+	background-repeat: no-repeat;
+	float: left;
+	height: 450px;
+	width: 150opx;
+	padding-top:20px;
+}
+#welcome-cari {
+	float:right;
+	width:430px;
+	height:350px;
+	padding-top:20px;
+}
+h2 {
+	color:#A0A0A4;
+	font-size:30px;
+	margin-bottom:15px;
+}
+#welcome-text {
+	width:400px;
+	line-height: 18px;
+    padding-top: 50px;
+    float: left;
+    text-align: justify;
+	margin-bottom:10px;
+}
+.list li {
+	list-style:none;
+	background-image:url(img/bullet.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	float:left;
+	text-decoration:none;
+	padding-left:20px;
+	margin-top:10px;
+	width:180px;
+}
+#welcome-image {
+	float:right;
+	width:430px;
+	height:300px;
+	padding-top:20px;
+}
+.line {
+  background-image:url(img/line.png);
+  background-repeat: no-repeat;
+  float: left;
+  height: 17px;
+  width: 850px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#conten {
+	width:850px;
+	height:auto;
+	padding-top:20px;
+	float:left;
+	margin-bottom:20px;
+}
+#conten-text {
+	width:500px;
+	text-align:justify;
+	float:left;
+	line-height:20px;
+}
+	
+
+.bottom {
+  background-image:url(img/line.png);
+  background-repeat: no-repeat;
+  float: left;
+  height: 17px;
+  width: 850px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer {
+	width:850px;
+	float:left;
+	padding-bottom:20px;
+
+}
+#footer-link {
+	width:400px;
+	float:left;
+}
+#footer-link a{
+	color:#FFF;
+	font-size:16px;
+	text-transform:capitalize;
+}
+#footer-link a:hover{
+	color:#09F;
+	font-size:16px;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+#footer-copy {
+	width:400px;
+	float:left;
+	text-align:right;
+}
+h3 {
+	color:#2A3F55;
+	font-size:16px;
+	text-shadow:#FFF;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+.contact li{
+	width:300px;
+	height:60px;
+	line-height:60px;
+	border-bottom:#444 solid 1px;
+	float:left;
+	text-decoration:none;
+	list-style:none;
+	padding-left:70px;
+	font-size:20px;
+	margin-top:20px;
+}
+.mail {
+	background-image:url(img/Mail-alt.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.phone {
+	background-image:url(img/Phone.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	text-transform:uppercase;
+}
+h1 {
+	text-transform:capitalize;
+	color:#AAA;
+	font-size:20px;
+	margin:5px;
+	background-image:url(img/Messages.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-left:70px;
+	height:60px;
+	line-height:60px;
+}
+
+.other-link a {
+	text-decoration:none;
+	list-style:none;
+	color:#EEE;
+	font-size:18px;
+
+}
+.other-link a:hover {
+	text-decoration:none;
+	list-style:none;
+	color:#09F;
+	font-size:30px;
+
+}
+
+#coment-line {
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+h4 {
+	font-size:16px;
+	text-transform:capitalize;
+	color:#444;
+	padding:5px;
+	text-decoration:none;
+}
+h5 {
+	font-size:17px;
+	text-transform:capitalize;
+	color:#09F;
+}
